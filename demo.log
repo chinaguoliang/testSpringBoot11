@@ -1,0 +1,207 @@
+2016-10-05 23:49:04.641  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : URL : http://localhost:8080/setData/key=name/value=chenguoping
+2016-10-05 23:49:04.641  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-05 23:49:04.641  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-05 23:49:04.641  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : CLASS_METHOD : com.example.RedisController.setData
+2016-10-05 23:49:04.641  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : ARGS : [name, chenguoping]
+2016-10-05 23:49:04.651  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : URL : http://localhost:8080/setData/key=name/value=chenguoping
+2016-10-05 23:49:04.651  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-05 23:49:04.651  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-05 23:49:04.652  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : CLASS_METHOD : com.example.RedisUtil.set
+2016-10-05 23:49:04.652  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : ARGS : [name, chenguoping]
+2016-10-05 23:49:04.736  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_URL : http://localhost:8080/setData/key=name/value=chenguoping
+2016-10-05 23:49:04.736  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-05 23:49:04.736  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-05 23:49:04.736  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.RedisUtil.set
+2016-10-05 23:49:04.736  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_ARGS : [name, chenguoping]
+2016-10-05 23:49:04.737  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : RESPONSE : true
+2016-10-05 23:49:04.737  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_URL : http://localhost:8080/setData/key=name/value=chenguoping
+2016-10-05 23:49:04.737  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-05 23:49:04.737  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-05 23:49:04.738  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.RedisController.setData
+2016-10-05 23:49:04.738  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : After_ARGS : [name, chenguoping]
+2016-10-05 23:49:04.738  INFO 5844 --- [http-nio-8080-exec-7] com.example.WebLogAspect                 : RESPONSE : "success"
+2016-10-05 23:49:20.946  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : URL : http://localhost:8080/getData/key=name
+2016-10-05 23:49:20.946  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-05 23:49:20.946  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-05 23:49:20.947  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : CLASS_METHOD : com.example.RedisController.getData
+2016-10-05 23:49:20.947  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : ARGS : [name]
+2016-10-05 23:49:20.947  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : URL : http://localhost:8080/getData/key=name
+2016-10-05 23:49:20.947  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-05 23:49:20.947  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-05 23:49:20.948  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : CLASS_METHOD : com.example.RedisUtil.get
+2016-10-05 23:49:20.948  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : ARGS : [name]
+2016-10-05 23:49:20.951  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_URL : http://localhost:8080/getData/key=name
+2016-10-05 23:49:20.951  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-05 23:49:20.951  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-05 23:49:20.952  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.RedisUtil.get
+2016-10-05 23:49:20.952  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_ARGS : [name]
+2016-10-05 23:49:20.952  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : RESPONSE : "chenguoping"
+2016-10-05 23:49:20.952  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_URL : http://localhost:8080/getData/key=name
+2016-10-05 23:49:20.952  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-05 23:49:20.952  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-05 23:49:20.952  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.RedisController.getData
+2016-10-05 23:49:20.953  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_ARGS : [name]
+2016-10-05 23:49:20.953  INFO 5844 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : RESPONSE : "chenguoping"
+2016-10-06 23:07:22.417  INFO 4772 --- [main] com.example.DemoApplication              : Starting DemoApplication on chenguoliang-PC with PID 4772 (F:\WebProject\testSpringBoot11\target\classes started by chenguoliang in F:\WebProject\testSpringBoot11)
+2016-10-06 23:07:22.589  INFO 4772 --- [main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2016-10-06 23:07:23.368  INFO 4772 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3472f4f1: startup date [Thu Oct 06 23:07:23 CST 2016]; root of context hierarchy
+2016-10-06 23:07:26.604  INFO 4772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2016-10-06 23:07:26.781  INFO 4772 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2016-10-06 23:07:26.813  INFO 4772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.UserRepository.
+2016-10-06 23:07:26.820  INFO 4772 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ManRepository.
+2016-10-06 23:07:27.957  INFO 4772 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46f32777] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-06 23:07:29.202  INFO 4772 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-06 23:07:29.230  INFO 4772 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-06 23:07:29.232  INFO 4772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2016-10-06 23:07:29.449  INFO 4772 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-06 23:07:29.450  INFO 4772 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6086 ms
+2016-10-06 23:07:29.963  INFO 4772 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-06 23:07:29.973  INFO 4772 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-06 23:07:29.974  INFO 4772 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-06 23:07:29.974  INFO 4772 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-06 23:07:29.974  INFO 4772 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-06 23:07:31.404  INFO 4772 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-06 23:07:31.432  INFO 4772 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-06 23:07:31.530  INFO 4772 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-10-06 23:07:31.532  INFO 4772 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-06 23:07:31.534  INFO 4772 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-06 23:07:31.591  INFO 4772 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-10-06 23:07:31.943  INFO 4772 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-06 23:07:32.589  INFO 4772 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-10-06 23:07:33.661  INFO 4772 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-06 23:07:35.536  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3472f4f1: startup date [Thu Oct 06 23:07:23 CST 2016]; root of context hierarchy
+2016-10-06 23:07:35.738  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.example.IndexController.index()
+2016-10-06 23:07:35.740  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index.html]}" onto public java.lang.String com.example.IndexController.index2()
+2016-10-06 23:07:35.740  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/product]}" onto public java.lang.String com.example.IndexController.product()
+2016-10-06 23:07:35.741  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/userinfo]}" onto public java.lang.String com.example.IndexController.getTest()
+2016-10-06 23:07:35.742  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addMan]}" onto java.lang.String com.example.ManController.addMain()
+2016-10-06 23:07:35.742  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllMan]}" onto java.util.List<com.example.Man> com.example.ManController.findUser()
+2016-10-06 23:07:35.744  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addData]}" onto java.lang.String com.example.MyController.addUser()
+2016-10-06 23:07:35.745  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllData]}" onto java.util.List<com.example.User> com.example.MyController.findUser()
+2016-10-06 23:07:35.746  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/locationInfo]}" onto java.util.Map com.example.MyController.locationInfo()
+2016-10-06 23:07:35.751  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/info]}" onto java.util.Map com.example.MyController.index111()
+2016-10-06 23:07:35.753  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getData/key={key}]}" onto public java.lang.String com.example.RedisController.getData(java.lang.String)
+2016-10-06 23:07:35.753  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/setData/key={key}/value={value}]}" onto public java.lang.String com.example.RedisController.setData(java.lang.String,java.lang.String)
+2016-10-06 23:07:35.754  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/TestMybatis]}" onto public java.lang.String com.example.TestMybatisController.user()
+2016-10-06 23:07:35.766  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-06 23:07:35.767  INFO 4772 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-06 23:07:35.961  INFO 4772 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-06 23:07:35.961  INFO 4772 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-06 23:07:36.140  INFO 4772 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-06 23:07:39.004  INFO 4772 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2016-10-06 23:07:41.420  INFO 4772 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-06 23:07:41.566  INFO 4772 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-10-06 23:07:41.577  INFO 4772 --- [main] com.example.DemoApplication              : Started DemoApplication in 20.865 seconds (JVM running for 21.836)
+2016-10-06 23:07:51.554  INFO 4772 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-10-06 23:07:51.555  INFO 4772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-10-06 23:07:51.583  INFO 4772 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+2016-10-06 23:07:51.626  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : URL : http://localhost:8080/
+2016-10-06 23:07:51.627  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-06 23:07:51.627  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:07:51.628  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : CLASS_METHOD : com.example.IndexController.index
+2016-10-06 23:07:51.629  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : ARGS : []
+2016-10-06 23:07:51.640  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_URL : http://localhost:8080/
+2016-10-06 23:07:51.640  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-06 23:07:51.640  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:07:51.640  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.IndexController.index
+2016-10-06 23:07:51.640  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : After_ARGS : []
+2016-10-06 23:07:51.650  INFO 4772 --- [http-nio-8080-exec-1] com.example.WebLogAspect                 : RESPONSE : "index"
+2016-10-06 23:08:07.818  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : URL : http://localhost:8080/TestMybatis
+2016-10-06 23:08:07.818  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-06 23:08:07.819  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:08:07.819  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : CLASS_METHOD : com.example.TestMybatisController.user
+2016-10-06 23:08:07.819  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : ARGS : []
+2016-10-06 23:08:07.832  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : URL : http://localhost:8080/TestMybatis
+2016-10-06 23:08:07.832  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-06 23:08:07.833  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:08:07.833  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : CLASS_METHOD : com.example.UserMapper.findUserByName
+2016-10-06 23:08:07.833  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : ARGS : [王伟]
+2016-10-06 23:08:07.921  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_URL : http://localhost:8080/TestMybatis
+2016-10-06 23:08:07.922  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-06 23:08:07.922  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:08:07.922  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.UserMapper.findUserByName
+2016-10-06 23:08:07.922  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_ARGS : [王伟]
+2016-10-06 23:08:07.938  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : RESPONSE : {"id":3,"name":"王伟","age":28}
+2016-10-06 23:08:07.938  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_URL : http://localhost:8080/TestMybatis
+2016-10-06 23:08:07.938  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-06 23:08:07.938  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:08:07.939  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.TestMybatisController.user
+2016-10-06 23:08:07.939  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : After_ARGS : []
+2016-10-06 23:08:07.939  INFO 4772 --- [http-nio-8080-exec-5] com.example.WebLogAspect                 : RESPONSE : "王伟-----28"
+2016-10-06 23:15:27.169  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : URL : http://localhost:8080/TestMybatis
+2016-10-06 23:15:27.170  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-06 23:15:27.171  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:15:27.171  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : CLASS_METHOD : com.example.TestMybatisController.user
+2016-10-06 23:15:27.171  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : ARGS : []
+2016-10-06 23:15:27.171  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : URL : http://localhost:8080/TestMybatis
+2016-10-06 23:15:27.171  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : HTTP_METHOD : GET
+2016-10-06 23:15:27.171  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:15:27.172  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : CLASS_METHOD : com.example.UserMapper.findUserByName
+2016-10-06 23:15:27.172  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : ARGS : [王伟]
+2016-10-06 23:15:27.175  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_URL : http://localhost:8080/TestMybatis
+2016-10-06 23:15:27.175  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-06 23:15:27.175  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:15:27.175  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.UserMapper.findUserByName
+2016-10-06 23:15:27.175  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_ARGS : [王伟]
+2016-10-06 23:15:27.178  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : RESPONSE : {"id":3,"name":"王伟","age":28}
+2016-10-06 23:15:27.178  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_URL : http://localhost:8080/TestMybatis
+2016-10-06 23:15:27.178  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_HTTP_METHOD : GET
+2016-10-06 23:15:27.178  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_IP : 0:0:0:0:0:0:0:1
+2016-10-06 23:15:27.178  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_CLASS_METHOD : com.example.TestMybatisController.user
+2016-10-06 23:15:27.178  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : After_ARGS : []
+2016-10-06 23:15:27.178  INFO 4772 --- [http-nio-8080-exec-9] com.example.WebLogAspect                 : RESPONSE : "王伟-----28"
+2016-11-13 09:28:16.118  INFO 2559 --- [main] com.example.DemoApplication              : Starting DemoApplication on ChendeMac-mini.local with PID 2559 (/Volumes/Work/workspace_java/testSpringBoot11/target/classes started by chen in /Volumes/Work/workspace_java/testSpringBoot11)
+2016-11-13 09:28:16.160  INFO 2559 --- [main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2016-11-13 09:28:16.751  INFO 2559 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6bc9c592: startup date [Sun Nov 13 09:28:16 CST 2016]; root of context hierarchy
+2016-11-13 09:28:18.995  INFO 2559 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2016-11-13 09:28:19.124  INFO 2559 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2016-11-13 09:28:19.144  INFO 2559 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.UserRepository.
+2016-11-13 09:28:19.146  INFO 2559 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.ManRepository.
+2016-11-13 09:28:19.894  INFO 2559 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9aedb0b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-11-13 09:28:20.710  INFO 2559 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-11-13 09:28:20.727  INFO 2559 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-11-13 09:28:20.728  INFO 2559 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.5
+2016-11-13 09:28:20.826  INFO 2559 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-11-13 09:28:20.826  INFO 2559 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4078 ms
+2016-11-13 09:28:21.163  INFO 2559 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-11-13 09:28:21.169  INFO 2559 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-11-13 09:28:21.169  INFO 2559 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-11-13 09:28:21.169  INFO 2559 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-11-13 09:28:21.170  INFO 2559 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-11-13 09:28:22.173  INFO 2559 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-11-13 09:28:22.192  INFO 2559 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-11-13 09:28:22.256  INFO 2559 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.11.Final}
+2016-11-13 09:28:22.258  INFO 2559 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-11-13 09:28:22.259  INFO 2559 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-11-13 09:28:22.296  INFO 2559 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2016-11-13 09:28:22.580  INFO 2559 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-11-13 09:28:23.036  INFO 2559 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2016-11-13 09:28:23.817  INFO 2559 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2016-11-13 09:28:25.389  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6bc9c592: startup date [Sun Nov 13 09:28:16 CST 2016]; root of context hierarchy
+2016-11-13 09:28:25.515  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.example.IndexController.index()
+2016-11-13 09:28:25.516  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/product]}" onto public java.lang.String com.example.IndexController.product()
+2016-11-13 09:28:25.517  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/userinfo]}" onto public java.lang.String com.example.IndexController.getTest()
+2016-11-13 09:28:25.518  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/index.html]}" onto public java.lang.String com.example.IndexController.index2()
+2016-11-13 09:28:25.519  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addMan]}" onto java.lang.String com.example.ManController.addMain()
+2016-11-13 09:28:25.519  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllMan]}" onto java.util.List<com.example.Man> com.example.ManController.findUser()
+2016-11-13 09:28:25.521  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getAllData]}" onto java.util.List<com.example.User> com.example.MyController.findUser()
+2016-11-13 09:28:25.521  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/info]}" onto java.util.Map com.example.MyController.index111()
+2016-11-13 09:28:25.522  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/locationInfo]}" onto java.util.Map com.example.MyController.locationInfo()
+2016-11-13 09:28:25.522  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addData]}" onto java.lang.String com.example.MyController.addUser()
+2016-11-13 09:28:25.523  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/setData/key={key}/value={value}]}" onto public java.lang.String com.example.RedisController.setData(java.lang.String,java.lang.String)
+2016-11-13 09:28:25.524  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getData/key={key}]}" onto public java.lang.String com.example.RedisController.getData(java.lang.String)
+2016-11-13 09:28:25.524  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/TestMybatis]}" onto public java.lang.String com.example.TestMybatisController.user()
+2016-11-13 09:28:25.530  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-11-13 09:28:25.531  INFO 2559 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-11-13 09:28:25.679  INFO 2559 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-13 09:28:25.679  INFO 2559 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-13 09:28:25.798  INFO 2559 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-11-13 09:28:27.336  INFO 2559 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6bc9c592: startup date [Sun Nov 13 09:28:16 CST 2016]; root of context hierarchy] and template loader path [classpath:/templates/]
+2016-11-13 09:28:27.337  INFO 2559 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2016-11-13 09:28:28.442  INFO 2559 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-11-13 09:28:28.521  INFO 2559 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-11-13 09:28:28.527  INFO 2559 --- [main] com.example.DemoApplication              : Started DemoApplication in 13.67 seconds (JVM running for 14.341)
